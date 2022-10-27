@@ -1,5 +1,4 @@
-//Contry Nationality list with ISO CODES,country name,nationality
-//For code go to line no:1749
+//Data
 let countrylist=[
     {
         "num_code": "4",
