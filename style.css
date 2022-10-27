@@ -8,6 +8,8 @@ body,html{
 
     
     height: 100vh;
+  
+    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,7 +32,7 @@ body,html{
 
 
 .display >.card{
-    width:20px;
+    width:230px;
     margin: 30px;
     border: 1px solid white;
     border-radius: 10px;
@@ -85,7 +87,7 @@ body,html{
     border: 1px solid #ced4da;
     border-radius: 10px;
 }
-.cancel .cancelBtn{
+.cancel .resetBtn{
     margin-top: 15px;
     cursor: pointer;
     border-radius: 10px;
@@ -106,7 +108,7 @@ button,input{
     background-color: skyblue;
     color: black;
 }
-.cancel .cancelBtn:hover{
+.cancel .resetBtn:hover{
     background-color: tomato;
     color: black;
 }
