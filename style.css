@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-image: url("https://i.pinimg.com/564x/cc/8a/06/cc8a062a8762bfda6b118185e674f829.jpg");
+
+    
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color:black ;
+
+}
+.search{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.display >.card{
+    width:20px;
+    margin: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    
+    
+}
+.display{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+.container1{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+.cancel{
+    display: flex;
+    justify-content: center;
+}
+.card-body{
+    background-color: lightskyblue;
+    border-radius: 10px;
+    border: 1px solid lightskyblue;
+    text-align: center;
+}
+.card-title{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.search .searchBtn{
+    margin-left: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.search .form-control{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+}
+.cancel .cancelBtn{
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button,input{
+    overflow: visible;
+}
+
+    #inputText {
+    margin-bottom: 0px;
+    width: 250px;
+    margin-right: 10px;
+    color: black;
+}
+
+
+.search .searchBtn:hover{
+    background-color: skyblue;
+    color: black;
+}
+.cancel .cancelBtn:hover{
+    background-color: tomato;
+    color: black;
+}
+
