@@ -1786,7 +1786,7 @@ async function search(){
     }
     catch{
         console.log("Page Not found");
-        alert("Invalid name(Ex:Prabu,Krish,John,Raju)");
+        alert("Invalid name(Enter only first name withut any space in between)");
         cancelPage();
     }
 }
